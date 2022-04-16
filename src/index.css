@@ -1,13 +1,40 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: buscarellaLogoFont; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeSpeed;
 }
 
-code {
+@font-face {
+  font-family: buscarellaLogoFont;
+  /* font-family: 'chloeregular'; */
+  /* src: url(sansation_light.woff); */
+  src: url(Chloe-Regular.otf);
+  /* src: 'chloeregular'; */
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+h1 {
+  font-family: buscarellaLogoFont;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  /* letter-spacing: var(--typeHeaderSpacing); */
+  /* line-height: var(--typeHeaderLineHeight); */
+  word-break: break-word;
+  /* background: url(https://cdn.shopify.com/s/files/1/1132/3440/files/hebe-logo-long-wht.png?v=1627003949) left center; */
+  /* background-size: cover; */
+  animation: play 5s steps(10) infinite;
+  display: inline-block;
 }
